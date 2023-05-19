@@ -2,9 +2,9 @@ const produt = {}
 
 //coleção de chave - valore
 produt.nome =  'celular '
-prod1.preco = 3333
-prod1.versoes = [ 3.1,3.4,4.1]
-prod1.vendedores = [
+produt.preco = 3333
+produt.versoes = [ 3.1,3.4,4.1]
+produt.vendedores = [
     {
         nome:"adilson",
         idade:25
@@ -16,6 +16,9 @@ prod1.vendedores = [
 
 ]
 
+console.log(produt.vendedores[0].nome)
+
+console.log(produt)
 //json - JavaScript Object Notation formato textual muito utilzado para comunicação entre sistemas
 nome = 
 `

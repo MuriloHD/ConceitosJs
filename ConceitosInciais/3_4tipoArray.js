@@ -16,7 +16,7 @@ console.log(valores.length)
 valores.push(" texto")
 valores.push(true,NaN)
 
-console.log(" texto")
+console.log(valores)
 
 //remover ultimo elemento
 console.log(valores.pop())

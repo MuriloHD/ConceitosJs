@@ -3,7 +3,7 @@
 */
 
 const peso1 = 1.0
-const peso2 = Number('2.1')
+const peso2 = Number('2.1') // parseInt e p
 
 console.log(peso1,peso2)
 
@@ -13,12 +13,12 @@ console.log(Number.isInteger(peso2))
 const n1 = 5.3333
 const n2 = 8.3000
 
-// a multiplicação e a divisao tem prioridade sobre a soma e a 
+// a multiplicação e a divisao tem prioridade sobre a soma e a subritração
 const soma = (n1*6 + n2*4)/2 
 console.log(soma)
 
 //infinity
-console.log(4/0)
+console.log(4/0.00000000000000000000)
 
 console.log('3' + 2)
 console.log('3' - 2)

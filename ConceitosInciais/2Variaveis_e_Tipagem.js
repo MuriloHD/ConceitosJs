@@ -1,8 +1,8 @@
 var x = 3
 let y = 4
 
-// var x = 30
-// let y = 40
+var x = 30
+//let y = 40
 
 // existem diferencas entre var e let
 
@@ -15,7 +15,7 @@ console.log(x,y)
 
 const c = 100
 
-// c = 100
+ //c = 100
 
 
 // Como trabalhamos com varios tipos de dados, ao desenvolver uma linguagem e escolhido uma forma de tipagem dos dados 
@@ -33,13 +33,7 @@ console.log(typeof(qualquerCoisa))
 
 
 // como JS e fracamente tipada temos uma grande importancia para escolher bons nomes 
-let valor = 30
+let valor = 30 // idadedoAtleta
 let idadeDoAtleta = 30
 
 
-
-// strings
-    const include = "include"
-    console.log(include.charAt(4))
-
-    console.log(include.charAt(5))
